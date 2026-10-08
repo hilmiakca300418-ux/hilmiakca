@@ -98,4 +98,315 @@
                 <!-- Filter Tabs -->
                 <div class="flex items-center gap-2 bg-slate-200 dark:bg-darkCard p-1 rounded-xl text-xs font-medium">
                     <button class="proj-tab px-3 py-1.5 rounded-lg bg-indigo-600 text-white transition-all cursor-pointer" data-category="all">Tümü</button>
-                    <button class="proj-tab px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all cursor-pointer" data-category="web">Web Araç
+                    <button class="proj-tab px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all cursor-pointer" data-category="web">Web Araçları</button>
+                    <button class="proj-tab px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all cursor-pointer" data-category="content">İçerik</button>
+                </div>
+            </div>
+
+            <!-- Project Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="project-card web p-6 rounded-2xl bg-lightCard dark:bg-darkCard border border-lightBorder dark:border-darkBorder flex flex-col justify-between hover:border-indigo-500/50 transition-all group">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="w-10 h-10 rounded-xl bg-indigo-500/10 text-indigo-500 flex items-center justify-center text-lg">
+                                <i class="fa-solid fa-code"></i>
+                            </span>
+                            <span class="text-xs px-2.5 py-1 rounded-full bg-slate-100 dark:bg-darkBorder text-slate-500 dark:text-slate-400 font-medium">Web Aracı</span>
+                        </div>
+                        <h3 class="font-semibold text-lg group-hover:text-indigo-500 transition-colors">Yönetim ve Takip Panoları</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 mt-2 leading-relaxed">
+                            Günlük operasyonları ve süreçleri hızlandırmak için tasarlanmış minimalist web tabanlı panolar.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-lightBorder dark:border-darkBorder flex items-center justify-between text-xs font-medium text-indigo-500">
+                        <span>Aktif Kullanımda</span>
+                        <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                    </div>
+                </div>
+
+                <!-- Card 2: HA Studio TV -->
+                <div onclick="window.open('https://youtube.com/@hastudiotv1', '_blank')" class="project-card content p-6 rounded-2xl bg-lightCard dark:bg-darkCard border border-lightBorder dark:border-darkBorder flex flex-col justify-between hover:border-rose-500/50 transition-all group cursor-pointer">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="w-10 h-10 rounded-xl bg-rose-500/10 text-rose-500 flex items-center justify-center text-lg">
+                                <i class="fa-brands fa-youtube"></i>
+                            </span>
+                            <span class="text-xs px-2.5 py-1 rounded-full bg-rose-100 dark:bg-rose-900/30 text-rose-600 dark:text-rose-400 font-medium">YouTube Kanalı</span>
+                        </div>
+                        <h3 class="font-semibold text-lg group-hover:text-rose-500 transition-colors">HA Studio TV</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 mt-2 leading-relaxed">
+                            Oyun, içerik üretimi ve çeşitli medya projelerimi paylaştığım, dijital dünyadaki video içerik alanım. 
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-lightBorder dark:border-darkBorder flex items-center justify-between text-xs font-medium text-rose-500">
+                        <span>Kanala Git</span>
+                        <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="project-card web p-6 rounded-2xl bg-lightCard dark:bg-darkCard border border-lightBorder dark:border-darkBorder flex flex-col justify-between hover:border-amber-500/50 transition-all group">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-500 flex items-center justify-center text-lg">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </span>
+                            <span class="text-xs px-2.5 py-1 rounded-full bg-slate-100 dark:bg-darkBorder text-slate-500 dark:text-slate-400 font-medium">Analiz</span>
+                        </div>
+                        <h3 class="font-semibold text-lg group-hover:text-amber-500 transition-colors">Özel Hesaplama Araçları</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 mt-2 leading-relaxed">
+                            Finansal oranlar, marjlar ve anlık istatistikler hesaplamak için geliştirilmiş pratik formlar.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-lightBorder dark:border-darkBorder flex items-center justify-between text-xs font-medium text-amber-500">
+                        <span>Canlı Araç</span>
+                        <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Practical Tools Section (Widget Hub) -->
+        <section id="tools" class="space-y-8">
+            <div>
+                <h2 class="text-2xl font-bold tracking-tight">Pratik Web Araçları</h2>
+                <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Tarayıcınızda doğrudan çalışan kullanışlı mini uygulamalar.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <!-- Tool 1: Tarayıcı Not Defteri -->
+                <div class="p-6 rounded-2xl bg-lightCard dark:bg-darkCard border border-lightBorder dark:border-darkBorder flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-semibold flex items-center gap-2">
+                                <i class="fa-solid fa-note-sticky text-indigo-500"></i> Hızlı Notlar
+                            </h3>
+                            <span class="text-xs text-slate-400">Otomatik Kayıt</span>
+                        </div>
+                        <textarea id="quick-note" rows="5" placeholder="Buraya hızlıca not alabilirsiniz..." class="w-full p-3 rounded-xl bg-slate-50 dark:bg-darkBg border border-lightBorder dark:border-darkBorder text-sm focus:outline-none focus:border-indigo-500 transition-colors resize-none"></textarea>
+                    </div>
+                    <div class="text-xs text-slate-400 mt-3 text-right" id="note-status">Tarayıcıda saklanır</div>
+                </div>
+
+                <!-- Tool 2: Görev Takipçisi -->
+                <div class="p-6 rounded-2xl bg-lightCard dark:bg-darkCard border border-lightBorder dark:border-darkBorder flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-semibold flex items-center gap-2">
+                                <i class="fa-solid fa-list-check text-emerald-500"></i> Görev Takipçisi
+                            </h3>
+                        </div>
+                        <div class="flex gap-2 mb-3">
+                            <input type="text" id="task-input" placeholder="Yeni görev ekle..." class="flex-grow px-3 py-2 rounded-xl bg-slate-50 dark:bg-darkBg border border-lightBorder dark:border-darkBorder text-sm focus:outline-none focus:border-emerald-500">
+                            <button id="add-task-btn" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-sm font-medium transition-colors cursor-pointer">Ekle</button>
+                        </div>
+                        <ul id="task-list" class="space-y-2 max-h-36 overflow-y-auto text-sm pr-1">
+                            <!-- Tasks injected via JS -->
+                        </ul>
+                    </div>
+                    <div class="text-xs text-slate-400 mt-3 text-right" id="task-count">0 görev kaldı</div>
+                </div>
+
+                <!-- Tool 3: Oran ve Kar Hesaplayıcı -->
+                <div class="p-6 rounded-2xl bg-lightCard dark:bg-darkCard border border-lightBorder dark:border-darkBorder flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-semibold flex items-center gap-2">
+                                <i class="fa-solid fa-calculator text-amber-500"></i> Kar & Oran Hesapla
+                            </h3>
+                        </div>
+                        <div class="space-y-3 text-sm">
+                            <div>
+                                <label class="text-xs text-slate-500 dark:text-slate-400 block mb-1">Maliyet / Alış Fiyatı (₺)</label>
+                                <input type="number" id="calc-cost" placeholder="0" class="w-full px-3 py-2 rounded-xl bg-slate-50 dark:bg-darkBg border border-lightBorder dark:border-darkBorder focus:outline-none focus:border-amber-500">
+                            </div>
+                            <div>
+                                <label class="text-xs text-slate-500 dark:text-slate-400 block mb-1">Satış Fiyatı (₺)</label>
+                                <input type="number" id="calc-price" placeholder="0" class="w-full px-3 py-2 rounded-xl bg-slate-50 dark:bg-darkBg border border-lightBorder dark:border-darkBorder focus:outline-none focus:border-amber-500">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-4 mt-4 border-t border-lightBorder dark:border-darkBorder flex items-center justify-between text-sm">
+                        <span class="text-slate-500">Net Kar Marjı:</span>
+                        <span id="calc-result" class="font-bold text-amber-500">%0.00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Social Section -->
+        <section id="contact" class="p-8 md:p-12 rounded-3xl bg-lightCard dark:bg-darkCard border border-lightBorder dark:border-darkBorder flex flex-col md:flex-row items-center justify-between gap-8">
+            <div class="space-y-2 text-center md:text-left">
+                <h2 class="text-2xl font-bold tracking-tight">Bağlantıda Kalalım</h2>
+                <p class="text-slate-500 dark:text-slate-400 text-sm max-w-md">Projelerim, sosyal medya hesaplarım veya işbirlikleri için benimle her zaman iletişim kurabilirsiniz.</p>
+            </div>
+            <div class="flex flex-wrap items-center justify-center gap-3">
+                <a href="https://youtube.com/@hastudiotv1" target="_blank" class="w-12 h-12 rounded-2xl bg-slate-100 dark:bg-darkBg border border-lightBorder dark:border-darkBorder flex items-center justify-center text-slate-700 dark:text-slate-200 hover:bg-rose-500 hover:text-white hover:border-rose-500 transition-all text-lg" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://github.com" target="_blank" class="w-12 h-12 rounded-2xl bg-slate-100 dark:bg-darkBg border border-lightBorder dark:border-darkBorder flex items-center justify-center text-slate-700 dark:text-slate-200 hover:bg-slate-800 hover:text-white hover:border-slate-800 transition-all text-lg" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="w-12 h-12 rounded-2xl bg-slate-100 dark:bg-darkBg border border-lightBorder dark:border-darkBorder flex items-center justify-center text-slate-700 dark:text-slate-200 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all text-lg" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:iletisim@hilmiakca.com" class="px-5 h-12 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-medium text-sm flex items-center gap-2 transition-all shadow-lg shadow-indigo-500/20">
+                    <i class="fa-solid fa-envelope"></i> E-posta Gönder
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-lightBorder dark:border-darkBorder py-8 mt-20 text-center text-xs text-slate-500">
+        <p>&copy; 2026 Hilmi Akça. Tüm hakları saklıdır. Minimalist web mimarisi.</p>
+    </footer>
+
+    <!-- JavaScript Interactions -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Theme Toggle
+            const themeToggleBtn = document.getElementById('theme-toggle-btn');
+            const themeIcon = document.getElementById('theme-icon');
+            
+            if (localStorage.getItem('theme') === 'light') {
+                document.documentElement.classList.remove('dark');
+                themeIcon.className = 'fa-solid fa-sun text-amber-500';
+            }
+
+            themeToggleBtn.addEventListener('click', () => {
+                const html = document.documentElement;
+                if (html.classList.contains('dark')) {
+                    html.classList.remove('dark');
+                    themeIcon.className = 'fa-solid fa-sun text-amber-500';
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    html.classList.add('dark');
+                    themeIcon.className = 'fa-solid fa-moon text-slate-300';
+                    localStorage.setItem('theme', 'dark');
+                }
+            });
+
+            // Project Filtering
+            const projTabs = document.querySelectorAll('.proj-tab');
+            projTabs.forEach(tab => {
+                tab.addEventListener('click', (e) => {
+                    projTabs.forEach(t => {
+                        t.className = "proj-tab px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all cursor-pointer";
+                    });
+                    e.target.className = "proj-tab px-3 py-1.5 rounded-lg bg-indigo-600 text-white transition-all cursor-pointer";
+
+                    const category = e.target.getAttribute('data-category');
+                    const cards = document.querySelectorAll('.project-card');
+                    cards.forEach(card => {
+                        if (category === 'all' || card.classList.contains(category)) {
+                            card.style.display = 'flex';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // Quick Note LocalStorage
+            const noteArea = document.getElementById('quick-note');
+            if (localStorage.getItem('hilmi_quick_note')) {
+                noteArea.value = localStorage.getItem('hilmi_quick_note');
+            }
+            noteArea.addEventListener('input', () => {
+                localStorage.setItem('hilmi_quick_note', noteArea.value);
+                const status = document.getElementById('note-status');
+                status.textContent = 'Kaydedildi ✓';
+                setTimeout(() => { status.textContent = 'Tarayıcıda saklanır'; }, 1500);
+            });
+
+            // Task Manager Logic
+            let tasks = JSON.parse(localStorage.getItem('hilmi_tasks')) || [
+                { text: 'Yeni web projesini gözden geçir', completed: false },
+                { text: 'YouTube içerik planını hazırla', completed: true }
+            ];
+
+            const taskList = document.getElementById('task-list');
+            const taskInput = document.getElementById('task-input');
+            const addTaskBtn = document.getElementById('add-task-btn');
+            const taskCount = document.getElementById('task-count');
+
+            function renderTasks() {
+                taskList.innerHTML = '';
+                let activeCount = 0;
+
+                tasks.forEach((task, index) => {
+                    if (!task.completed) activeCount++;
+                    const li = document.createElement('li');
+                    li.className = 'flex items-center justify-between p-2 rounded-xl bg-slate-50 dark:bg-darkBg border border-lightBorder dark:border-darkBorder';
+                    li.innerHTML = `
+                        <label class="flex items-center gap-2 cursor-pointer text-xs ${task.completed ? 'line-through text-slate-400' : ''}">
+                            <input type="checkbox" ${task.completed ? 'checked' : ''} data-index="${index}" class="task-checkbox rounded accent-emerald-500 cursor-pointer">
+                            ${task.text}
+                        </label>
+                        <button data-index="${index}" class="delete-task-btn text-slate-400 hover:text-rose-500 px-1 cursor-pointer"><i class="fa-solid fa-xmark"></i></button>
+                    `;
+                    taskList.appendChild(li);
+                });
+                taskCount.textContent = `${activeCount} görev kaldı`;
+                localStorage.setItem('hilmi_tasks', JSON.stringify(tasks));
+
+                // Bind events to newly created elements
+                document.querySelectorAll('.task-checkbox').forEach(chk => {
+                    chk.addEventListener('change', (e) => {
+                        const idx = e.target.getAttribute('data-index');
+                        tasks[idx].completed = e.target.checked;
+                        renderTasks();
+                    });
+                });
+
+                document.querySelectorAll('.delete-task-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        const idx = e.currentTarget.getAttribute('data-index');
+                        tasks.splice(idx, 1);
+                        renderTasks();
+                    });
+                });
+            }
+
+            addTaskBtn.addEventListener('click', () => {
+                if (taskInput.value.trim() === '') return;
+                tasks.push({ text: taskInput.value.trim(), completed: false });
+                taskInput.value = '';
+                renderTasks();
+            });
+
+            taskInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    addTaskBtn.click();
+                }
+            });
+
+            renderTasks();
+
+            // Calculator Logic
+            const costInput = document.getElementById('calc-cost');
+            const priceInput = document.getElementById('calc-price');
+            const resultEl = document.getElementById('calc-result');
+
+            function calculateMargin() {
+                const cost = parseFloat(costInput.value) || 0;
+                const price = parseFloat(priceInput.value) || 0;
+
+                if (cost <= 0 || price <= 0 || price <= cost) {
+                    resultEl.textContent = '%0.00';
+                    return;
+                }
+
+                const margin = ((price - cost) / price) * 100;
+                resultEl.textContent = `%${margin.toFixed(2)}`;
+            }
+
+            costInput.addEventListener('input', calculateMargin);
+            priceInput.addEventListener('input', calculateMargin);
+        });
+    </script>
+</body>
+</html>
